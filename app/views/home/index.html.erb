@@ -1,2 +1,46 @@
-<h1>Home#index</h1>
-<p>Find me in app/views/home/index.html.erb</p>
+<div class= "home">
+<h5> Art is a spiritual activity because we don't know where it comes from or how it happens or why we see the world differently. Something mysterious happens. I see a clear picture of the piece in my mind and study it for some time before deciding if I should make the structure or Installation or Artist's Book, or not. Art critics call these pictures visions.
+       Almost from the begining my work questioned traditional ideas and accepted truths, especially how we value art and what we do with our work. My insticnctive reaction to the world around me was always a probe rather than an answer. Even as a child I never simply accepted things as truths because someone said I should. Art asks us to look deeper. That's one of it's greatest values that it makes us see and discover the most unusual things.
+</div>
+</h5>
+<%= link_to artworks_path, class: "btn2" do %>
+  <button class="cta">
+  <span class="hover-underline-animation"> Artwork </span>
+  <svg
+    id="arrow-horizontal"
+    xmlns="http://www.w3.org/2000/svg"
+    width="23"
+    height="7"
+    viewBox="0 0 46 16"
+  >
+    <path
+      id="Path_10"
+      data-name="Path 10"
+      d="M8,0,6.545,1.455l5.506,5.506H-30V9.039H12.052L6.545,14.545,8,16l8-8Z"
+      transform="translate(30)"
+    ></path>
+  </svg>
+</button><% end %>
+
+&nbsp;
+
+&nbsp;
+
+<%= link_to books_path, class: "btn2" do %>
+  <button class="cta">
+  <span class="hover-underline-animation"> Books </span>
+  <svg
+    id="arrow-horizontal"
+    xmlns="http://www.w3.org/2000/svg"
+    width="23"
+    height="7"
+    viewBox="0 0 46 16"
+  >
+    <path
+      id="Path_10"
+      data-name="Path 10"
+      d="M8,0,6.545,1.455l5.506,5.506H-30V9.039H12.052L6.545,14.545,8,16l8-8Z"
+      transform="translate(30)"
+    ></path>
+  </svg>
+</button><% end %>

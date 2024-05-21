@@ -1,16 +1,46 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>SheilaReid</title>
+    <title>SheilaArt</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
+
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Special+Elite&display=swap" rel="stylesheet">
+
+
+    <style>
+      h1 {
+        text-align: center;
+        margin-top: 50px;
+        color: #803030;
+         font-family: "Special Elite", system-ui;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 60px;
+      }
+
+      h2 {
+        text-align: center;
+        margin-top: 50px;
+         color: #803030;
+        font-family: "Special Elite", system-ui;
+        font-weight: 700;
+        font-style: normal;
+       color: #99582a
+      }
+
+      
+    </style>
   </head>
 
   <body>
+    <h1>Sheila Reid</h1>
     <%= yield %>
   </body>
 </html>
