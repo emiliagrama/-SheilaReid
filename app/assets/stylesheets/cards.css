@@ -70,3 +70,40 @@
   scale: 0;
   transform: rotate(-45deg);
 }
+@media (max-width: 768px) {
+  .container {
+    gap: 10px;
+  }
+  .card {
+    width: 500px;
+    height: 500px;
+    margin: 10px;
+  }
+  .card__title {
+    font-size: 21px;
+  }
+  .card__description {
+    font-size: 19px;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    gap: 10px;
+  }
+  .card {
+    width: 350px;
+    height: 350px;
+    margin: 5px;
+  }
+  .card__content {
+    padding: 3px;
+  }
+
+  .card__title {
+    font-size: 17px;
+  }
+  .card__description {
+    font-size: 14px;
+  }
+}
