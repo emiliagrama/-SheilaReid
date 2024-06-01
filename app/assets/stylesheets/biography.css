@@ -1,23 +1,23 @@
 .biography {
-  background-color: #fcf4e3;
+  background-color: #f3efec1a;
   padding: 20px;
   border-radius: 5px;
   margin-bottom: 20px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
   font-family: "Comic Neue", cursive;
 }
-
-h6 {
+h3 {
   text-align: center;
-  color: #432818;
-  margin: 0;
-  font-family: "Comic Neue", cursive;
+  margin-top: 50px;
+   color: #803030;
+  font-family: "Special Elite", system-ui;
+  font-weight: 700;
+  font-style: normal;
+ color: #8a4514a8
 }
-
 .ul1  {
   font-family: "Comic Neue", cursive;
 }
-
 .ul2  {
   font-family: "Comic Neue", cursive;
 }
