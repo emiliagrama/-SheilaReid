@@ -34,12 +34,34 @@
         font-style: normal;
        color: #99582a
       }
+     .home-image img {
+      width: 100%;
+      height: auto;
+      max-height: 900px;
+      object-fit: cover;
+      border-radius: 10px;
+      box-shadow: 0 8px 10px rgba(0,0,0,0.2);
+      }
       /* Dropdown Button */
     .dropdown {
       position: absolute;
-      top: 20px;
+      top: 15px;
       left: 20px;
+    }
 
+    .dropbtn {
+      background-color:  ##3C6295;
+      color: white;
+      padding: 1px;
+      font-size: 25px;
+      border: none;
+      cursor: pointer;
+      border-radius: 8px;
+      transition: background-color 0.3s;
+    }
+
+    .dropbtn:hover {
+      background-color: #3C6295;
     }
 
     .dropdown-content {
@@ -49,25 +71,63 @@
       min-width: 160px;
       box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
       z-index: 1;
+      border-radius: 8px;
+      overflow: hidden;
       left: 0;
     }
 
     .dropdown-content a {
       color: black;
-      padding: 5px 10px;
+      padding: 12px 16px;
       text-decoration: none;
       display: block;
+      transition: background-color 0.3s;
     }
 
     .dropdown-content a:hover {
-      background-color: #f1f1f1;
+      background-color:#FEFDFD;
     }
 
     .dropdown:hover .dropdown-content {
       display: block;
     }
 
+    .btn2 .cta {
+      border: none;
+      background: none;
+    }
 
+    .btn2 .cta span {
+      padding-bottom: 2px;
+      letter-spacing: 4px;
+      font-size: 15px;
+      padding-right: 10px;
+      text-transform: uppercase;
+      font-family: "Special Elite", system-ui;
+    }
+
+    .btn2 .cta .hover-underline-animation {
+      display: inline-block;
+      position: relative;
+    }
+
+    .btn2 .cta .hover-underline-animation::after {
+      content: '';
+      position: absolute;
+      width: 100%;
+      transform: scaleX(0);
+      height: 2px;
+      bottom: 0;
+      left: 0;
+      background-color: #003366;
+      transform-origin: bottom right;
+      transition: transform 0.25s ease-out;
+    }
+
+    .btn2 .cta:hover .hover-underline-animation::after {
+      transform: scaleX(1);
+      transform-origin: bottom left;
+    }
 
     </style>
   </head>
