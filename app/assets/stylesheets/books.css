@@ -28,18 +28,19 @@
 .book_title {
   margin: 0;
   font-size: 17px;
-  color: #252525;
+  color: #111111;
   font-weight: 700;
   font-family: "Comic Neue", cursive;
 }
 
 .content {
-  padding: 20px 20px 20px 40px;
+  padding: 10px 5.0px 5.0px 40px;
   font-size: 15px;
-  color: #444343;
-  font-weight: 500;
+  color: #0f0f0f;
+  font-weight: 550;
   line-height: 1.3;
   font-family: "Comic Neue", cursive;
+  margin-left: 15px;
 }
 
 .cover {

@@ -28,11 +28,16 @@
       h2 {
         text-align: center;
         margin-top: 50px;
-         color: #803030;
+        color: #803030;
         font-family: "Special Elite", system-ui;
         font-weight: 700;
         font-style: normal;
-       color: #99582a
+       color: #99582a;
+       font-size: 35px;
+      }
+      h3{
+        font-size: 25px;
+        color:#153a5cd5;
       }
      .home-image img {
       width: 100%;
@@ -45,17 +50,18 @@
       /* Dropdown Button */
     .dropdown {
       position: absolute;
-      top: 15px;
+      top: 20px;
       left: 20px;
+
     }
 
     .dropbtn {
       background-color:  ##3C6295;
       color: white;
       padding: 1px;
-      font-size: 25px;
-      border: none;
+      font-size: 28px;
       cursor: pointer;
+      border: none;
       border-radius: 8px;
       transition: background-color 0.3s;
     }
@@ -100,9 +106,8 @@
     .btn2 .cta span {
       padding-bottom: 2px;
       letter-spacing: 4px;
-      font-size: 15px;
+      font-size: 20px;
       padding-right: 10px;
-      text-transform: uppercase;
       font-family: "Special Elite", system-ui;
     }
 
@@ -133,6 +138,7 @@
   </head>
 
   <body>
+  <br><br>
     <h1>Sheila Reid</h1>
      <%= render partial: 'shared/dropdown_menu' %>
     <%= yield %>

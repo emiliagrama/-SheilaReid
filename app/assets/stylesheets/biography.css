@@ -5,19 +5,23 @@
   margin-bottom: 20px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
   font-family: "Comic Neue", cursive;
+  font-size: 20px;
 }
 h3 {
   text-align: center;
   margin-top: 50px;
-   color: #803030;
+  color: #803030;
   font-family: "Special Elite", system-ui;
   font-weight: 700;
   font-style: normal;
- color: #8a4514a8
+
 }
 .ul1  {
   font-family: "Comic Neue", cursive;
+  font-size: 20px;
+
 }
 .ul2  {
   font-family: "Comic Neue", cursive;
+  font-size: 20px;
 }
