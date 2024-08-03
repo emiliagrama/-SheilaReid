@@ -3,6 +3,8 @@
   <head>
     <title>SheilaArt</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="Explore the unique and inspiring artworks of Sheila Reid, a contemporary artist known for her innovative installations, structures, and artist's books.">
+    <meta name="keywords" content="Sheila Reid, contemporary artist, art installations, artist's books, innovative art, art structures">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -135,6 +137,27 @@
     }
 
     </style>
+
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Sheila Reid",
+      "jobTitle": "Artist",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Sheila Reid Art"
+      },
+      "sameAs": [
+        "http://www.sheilareidart.com",
+        "https://www.instagram.com/sheilareidart",
+        "https://www.facebook.com/sheilareidart"
+      ]
+    }
+    </script>
+
   </head>
 
   <body>
